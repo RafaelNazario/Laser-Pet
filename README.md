@@ -1,7 +1,7 @@
 # Projeto Laser Pet
 
 
->Projeto Desenvolvido ao final da formação Microcontroladores e Eletrônica Aplicada da empresa Alura.
+>Projeto Desenvolvido durante a formação Microcontroladores e Eletrônica Aplicada da empresa Alura.
 
 Funcionamento:
 
