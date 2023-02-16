@@ -16,8 +16,8 @@ Servo servoY;
 
 // SETUP WIFI E MQTT
 
-const char* ssid = "CindyS2";                         // SSID DA SUA REDE
-const char* password = "tirimptas123";                // SENHA DA SUA REDE WIFI
+const char* ssid = "";                         // SSID DA SUA REDE
+const char* password = "";                // SENHA DA SUA REDE WIFI
 const char* mqtt_server = "mqtt.eclipseprojects.io";  // BROKER MQTT ADRESS
 const int mqtt_port = 1883;                           // BROKER MQTT PORT
 const char* mqtt_user = "usuario";
@@ -41,7 +41,7 @@ void setup() {
   pinMode(PIR, INPUT);
 
   setup_wifi();
-  client.setServer(mqtt_server, 1883);
+  client.setServer(mqtt_server, 1883); //BROKER ADRESS, MQTT PORT
   
 }
 
